@@ -30,4 +30,10 @@ public class UserController {
         response.getWriter().close();
     }
 
+
+    @RequestMapping("/test")
+    public Object test() throws IOException {
+        return "aaaaa";
+    }
+
 }
